@@ -1,0 +1,155 @@
+.Users {
+  padding: 60.95px 64.14px;
+}
+.firstUsersSection {
+  padding: 60.95px 0px;
+  height: 67px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstUsersSectionLeft {
+  font-family: "Poppins", sans-serif;
+  color: #0f29b5;
+  font-size: 48px;
+  font-weight: bold;
+}
+.firstUsersSectionBtn {
+  font-family: "Poppins", sans-serif;
+  background-color: #0f29b5;
+  color: #eeefef;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 11px 36px;
+  border: none;
+  border-radius: 13px;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+.UsersSecondSection {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  width: 100%;
+
+  box-shadow: 2px 3px 14px #7777771d;
+  border-radius: 13px;
+  margin-top: 21px;
+  padding: 1px;
+}
+.UsersContent {
+  background: #6a707e00;
+  border: 1px solid #dddfe1;
+  opacity: 1;
+  margin: 48px 38px 58px 34px;
+}
+.TableTh {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #464a53;
+  width: 131px;
+  height: 20px;
+  text-transform: capitalize;
+}
+
+.TableTROdd {
+  font-family: "Poppins", sans-serif;
+  width: 1434px;
+  height: 80px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.TableTREven {
+  font-family: "Poppins", sans-serif;
+  width: 1434px;
+  height: 80px;
+  text-align: center;
+  background-color: #ddebff;
+  text-transform: capitalize;
+}
+.TableTdName {
+  padding: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #505050;
+  text-transform: capitalize;
+}
+.TableTD {
+  width: 94px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #505050;
+  text-transform: capitalize;
+}
+.TableTDTime {
+  font-size: 15px;
+}
+.userworking {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.userworkingConent {
+  width: 59px;
+  height: 32px;
+  background: #fda700;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.userworkingBall {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  opacity: 1;
+}
+.userNotworkingConent {
+  width: 59px;
+  height: 32px;
+  background: #c7c7c7;
+  border-radius: 24px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.userNotworkingBall {
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  opacity: 1;
+}
+.UserUpdate {
+  padding: 4px 7px;
+  margin: 7px;
+  background: #7ec7ff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.UserDelete {
+  padding: 4px 7px;
+  margin: 7px;
+  background: #ff6969;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.UserDetails {
+  padding: 4px 7px;
+  margin: 7px;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+}

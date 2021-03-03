@@ -1,0 +1,157 @@
+.Tickets {
+  padding: 60.95px 64.14px;
+}
+.TicketsHeaders {
+  display: flex;
+
+  align-items: center;
+  height: 76px;
+}
+.TicketsHeadersLeft {
+  color: #0f29b5;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.TicketsHeadersRight {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+.TicketsHeadersOpenTickets {
+  width: 304px;
+  height: 67px;
+  background: #ffffff;
+  margin-left: 31px;
+  box-shadow: 0px 3px 16px #bababa77;
+  border-radius: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TicketsHeadersOpenTicketsLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal bold 18px/12px Poppins;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  width: 133px;
+  height: 25px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  cursor: pointer;
+}
+.TicketsHeadersClosedTickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fda700 0% 0% no-repeat padding-box;
+  border-radius: 46px;
+  opacity: 1;
+  width: 155px;
+  height: 57px;
+  font: normal normal bold 18px/12px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  cursor: pointer;
+}
+.TicketsHeadersSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 536px;
+  height: 67px;
+  background: #e0ebff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 16px #cecece29;
+  border-radius: 20px;
+}
+.SearchParent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TicketsHeadersSearchInput {
+  padding-left: 1rem;
+  border: none;
+  width: 100%;
+  background-color: #e0ebff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.TicketsHeadersSearchInput:focus {
+  outline: none;
+}
+.SideBarItemlinkSearchSvg {
+  padding: 20px;
+}
+.TicketsSecondSection {
+  margin-top: 51px;
+}
+.TicketsTotal {
+  color: #0f29b5;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.TicketsThirdSection {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  width: 100%;
+ 
+  box-shadow: 2px 3px 14px #7777771d;
+  border-radius: 13px;
+  margin-top: 21px;
+  padding: 1px;
+}
+.TicketsThirdSectionContent {
+  background: #6a707e00;
+  border: 1px solid #dddfe1;
+  opacity: 1;
+  margin: 48px 38px 58px 34px;
+}
+.TableTh {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  color: #464A53;
+  width: 131px;
+  height: 20px;
+  text-transform: capitalize;
+}
+.TableTROdd {
+  font-family: "Poppins", sans-serif;
+  width: 1434px;
+  height: 80px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.TableTREven {
+  font-family: "Poppins", sans-serif;
+  width: 1434px;
+  height: 80px;
+  text-align: center;
+  background-color: #ddebff;
+  text-transform: capitalize;
+}
+.TableTD {
+  padding: 2rem;
+  width: 94px;
+  height: 100px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #505050;
+  text-transform: capitalize;
+}
+.TableTDTime {
+  font-size: 15px;
+}
