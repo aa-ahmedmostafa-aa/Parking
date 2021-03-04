@@ -1,23 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 import searchSvg from "../../../assits/036-searchTicket.svg";
 
-export default function index() {
+export default function Index() {
+
+  const [opentTickets, setOpentTickets] = useState(true);
+  const handleTogellTickets = () => {
+    setOpentTickets(!opentTickets);
+  };
+
   return (
     <div className={styles.Tickets}>
       <div className="row no-gutters">
         <div className="col-md-12">
           <div className={styles.TicketsHeaders}>
             <div className={styles.TicketsHeadersLeft}>Tickets</div>
+
             <div className={styles.TicketsHeadersRight}>
-              <div className={styles.TicketsHeadersOpenTickets}>
-                <div className={styles.TicketsHeadersOpenTicketsLeft}>
+
+              <div onClick={handleTogellTickets} className={styles.TicketsHeadersOpenTickets}>
+                <div className={ opentTickets ? styles.TicketsHeadersClosedTickets :styles.TicketsHeadersOpenTicketsLeft}>
                   Open Tickets
                 </div>
-                <div className={styles.TicketsHeadersClosedTickets}>
+                <div className={opentTickets ? styles.TicketsHeadersOpenTicketsLeft: styles.TicketsHeadersClosedTickets }>
                   Closed Tickets
                 </div>
               </div>
+
               <div className={styles.TicketsHeadersSearch}>
                 <div className={styles.SearchParent}>
                   <input
@@ -88,7 +97,7 @@ export default function index() {
               <tr className={styles.TableTREven}>
                 <td className={styles.TableTD}>A B B 123</td>
                 <td className={styles.TableTD}>
-                  4/10/2020 <div className={styles.TableTDTime} >4:17 pm</div>
+                  4/10/2020 <div className={styles.TableTDTime}>4:17 pm</div>
                 </td>
                 <td className={styles.TableTD}>
                   4/10/2020 <div className={styles.TableTDTime}>4:17 pm</div>
@@ -110,7 +119,7 @@ export default function index() {
               <tr className={styles.TableTREven}>
                 <td className={styles.TableTD}>A B B 123</td>
                 <td className={styles.TableTD}>
-                  4/10/2020 <div className={styles.TableTDTime} >4:17 pm</div>
+                  4/10/2020 <div className={styles.TableTDTime}>4:17 pm</div>
                 </td>
                 <td className={styles.TableTD}>
                   4/10/2020 <div className={styles.TableTDTime}>4:17 pm</div>
