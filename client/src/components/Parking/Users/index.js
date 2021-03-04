@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 import editSvg from "../../../assits/edit.svg";
 import deletSvg from "../../../assits/delete.svg";
 import downSvg from "../../../assits/down-arrow.svg";
 
-export default function index() {
+export default function Index() {
+  const [workingToggel, setWorkingToggel] = useState(true);
+
+  const handleToggellWorking = () => {
+    setWorkingToggel(!workingToggel);
+  };
+
   return (
     <div className={styles.Users}>
       <div className="row no-gutters">
@@ -48,11 +54,12 @@ export default function index() {
                     <td className={styles.TableTdName}>Aya</td>
                     <td className={styles.TableTD}>Aya Magdy Ibrahim</td>
                     <td className={styles.TableTD}>01067034868</td>
-                    <td className={styles.userworking}>
-                      <div className={styles.userworkingConent}>
-                        <div className={styles.userworkingBall}></div>
-                      </div>
-                    </td>
+                    <td onClick={handleToggellWorking} className={styles.userworking}>
+                     
+                     <div className={workingToggel ?styles.userworkingConent :styles.userNotworkingConent}>
+                       <div className={styles.userNotworkingBall}></div>
+                     </div>
+                   </td>
                     <td className={styles.TableTD}>5 Permission</td>
                     <td className={styles.TableTD}>
                       <span className={styles.UserUpdate}>
@@ -85,8 +92,9 @@ export default function index() {
                     <td className={styles.TableTdName}>Aya</td>
                     <td className={styles.TableTD}>Aya Magdy Ibrahim</td>
                     <td className={styles.TableTD}>01067034868</td>
-                    <td className={styles.userworking}>
-                      <div className={styles.userNotworkingConent}>
+                    <td onClick={handleToggellWorking} className={styles.userworking}>
+                     
+                      <div className={workingToggel ?styles.userworkingConent :styles.userNotworkingConent}>
                         <div className={styles.userNotworkingBall}></div>
                       </div>
                     </td>
@@ -118,6 +126,7 @@ export default function index() {
                       </span>
                     </td>
                   </tr>
+
                 </tbody>
               </table>
             </div>

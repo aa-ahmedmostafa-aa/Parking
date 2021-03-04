@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 export default function index() {
     return (
         <div className={styles.test}>
-            Open Tickets
+            Search
         </div>
     )
 }

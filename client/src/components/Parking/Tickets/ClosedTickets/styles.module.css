@@ -1,0 +1,64 @@
+.TicketsSecondSection {
+    margin-top: 51px;
+  }
+  .TicketsTotal {
+    color: #0f29b5;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  .TicketsThirdSection {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    width: 100%;
+   
+    box-shadow: 2px 3px 14px #7777771d;
+    border-radius: 13px;
+    margin-top: 21px;
+    padding: 1px;
+  }
+  .TicketsThirdSectionContent {
+    background: #6a707e00;
+    border: 1px solid #dddfe1;
+    opacity: 1;
+    margin: 48px 38px 58px 34px;
+  }
+  .TableTh {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: #b5b6b9;
+    width: 131px;
+    height: 20px;
+    text-transform: capitalize;
+  }
+  .TableTROdd {
+    font-family: "Poppins", sans-serif;
+    width: 1434px;
+    height: 80px;
+    text-align: center;
+    background-color: #ddebff;
+    text-transform: capitalize;
+  }
+  .TableTREven {
+    font-family: "Poppins", sans-serif;
+    width: 1434px;
+    height: 80px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .TableTD {
+    padding: 2rem;
+    width: 94px;
+    height: 100px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #595a5b;
+    text-transform: capitalize;
+  }
+  .TableTDTime {
+    font-size: 15px;
+  }
+  

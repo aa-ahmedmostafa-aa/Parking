@@ -9,11 +9,14 @@ import ticketSvg from "../../assits/009-order.svg";
 import usersSvg from "../../assits/customer.svg";
 import searchSvg from "../../assits/036-search.svg";
 import profile from "../../assits/profile.jpeg";
+import logo from "../../assits/logo.png";
 
 export default function index() {
   return (
     <div className={styles.sideBar}>
-      <div className={`${styles.logo}`}>Logo</div>
+      <div className={`${styles.logo}`}>
+        <img src={logo} alt="logo" width="250px" height="200px" />
+      </div>
 
       <ul class={styles.SideBarGroup}>
         <li class={styles.SideBarItem}>
@@ -99,7 +102,7 @@ export default function index() {
         </li>
 
         <li class={styles.SideBarItem}>
-          <NavLink className={styles.SideBarItemlink} to="/users">
+          <NavLink className={styles.SideBarItemlink} to="/search">
             <div>
               <img
                 className={styles.SideBarItemlinkSvg}

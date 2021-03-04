@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { Route, Switch, Redirect } from "react-router-dom";
-import { Dashboard, Departments, MoneyCollection, PricePlan, Tickets, Users } from "..";
+import { Dashboard, Departments, MoneyCollection, PricePlan, Search, Tickets, Users } from "..";
 
 export default function index() {
   return (
@@ -13,6 +13,7 @@ export default function index() {
         <Route path="/pricePlan" component={PricePlan} />
         <Route path="/tickets" component={Tickets} />
         <Route path="/users" component={Users} />
+        <Route path="/search" component={Search} />
       </Switch>
     </div>
   );
